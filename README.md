@@ -4,6 +4,8 @@ Website desenvolvido para o Projeto 1 da disciplina de **Programação Web Front
 
 **Site publicado:** https://mateusimamura.github.io/propostaparaODS08/
 
+**Vídeo de apresentação:** https://drive.google.com/file/d/1nXuwDER1arzb4k0F6diaBvRFAecLwVZA/view?usp=sharing
+
 ## Sobre o projeto
 
 O site apresenta uma proposta para a geração de empregos alinhada ao **Objetivo de Desenvolvimento Sustentável 8 (ODS 8)** da Agenda 2030 da ONU: *promover o crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todas e todos*.
