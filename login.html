@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre na rede de estudantes voluntários da proposta para a ODS 8.">
+    <title>Login - propostaparaODS08</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="container topo-conteudo">
+            <a class="marca" href="index.html">
+                <img src="img/logo.svg" alt="" width="40" height="40">
+                <span>Proposta ODS 8</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="acesso">
+        <section class="cartao-form estreito">
+            <h1>Entrar</h1>
+            <p>Acesse sua conta para conhecer a proposta.</p>
+
+            <form action="principal.html" method="get">
+                <div class="campos campos-coluna">
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="Sua senha" autocomplete="current-password" required>
+                    </div>
+                </div>
+
+                <button class="botao botao-largo" type="submit">Entrar</button>
+            </form>
+
+            <p class="troca">Ainda não tem conta? <a href="index.html">Cadastre-se</a></p>
+        </section>
+    </main>
+
+    <footer class="rodape rodape-simples">
+        <p>Projeto acadêmico · Programação Web Front-End · UTFPR · 2026</p>
+    </footer>
+</body>
+</html>

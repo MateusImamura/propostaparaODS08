@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastre-se na rede de estudantes voluntários da proposta para a ODS 8.">
+    <title>Cadastro - propostaparaODS08</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="container topo-conteudo">
+            <a class="marca" href="index.html">
+                <img src="img/logo.svg" alt="" width="40" height="40">
+                <span>Proposta ODS 8</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="acesso">
+        <section class="cartao-form">
+            <h1>Crie sua conta</h1>
+            <p>Cadastre-se na rede de estudantes voluntários e ajude a gerar trabalho decente na sua comunidade.</p>
+
+            <form action="login.html" method="get">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <div class="campos">
+                        <div class="campo campo-inteiro">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email" required>
+                        </div>
+                        <div class="campo">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(41) 99999-9999" autocomplete="tel" required>
+                        </div>
+                        <div class="campo">
+                            <label for="nascimento">Data de nascimento</label>
+                            <input type="date" id="nascimento" name="nascimento" required>
+                        </div>
+                        <div class="campo">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" autocomplete="address-level2" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Participação</legend>
+                    <div class="campos">
+                        <div class="campo">
+                            <label for="instituicao">Instituição de ensino</label>
+                            <input type="text" id="instituicao" name="instituicao" placeholder="Ex.: UTFPR" required>
+                        </div>
+                        <div class="campo">
+                            <label for="interesse">Área de interesse</label>
+                            <select id="interesse" name="interesse" required>
+                                <option value="">Selecione</option>
+                                <option value="curriculos">Oficinas de currículo</option>
+                                <option value="direitos">Direitos trabalhistas</option>
+                                <option value="mei">Formalização de MEIs</option>
+                            </select>
+                        </div>
+                        <div class="campo campo-inteiro">
+                            <label for="senha">Senha</label>
+                            <input type="password" id="senha" placeholder="Mínimo de 6 caracteres" minlength="6" autocomplete="new-password" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <label class="caixa-termos">
+                    <input type="checkbox" name="termos" required>
+                    <span>Concordo em participar como voluntário(a) da rede.</span>
+                </label>
+
+                <button class="botao botao-largo" type="submit">Cadastrar</button>
+            </form>
+
+            <p class="troca">Já tem conta? <a href="login.html">Entrar</a></p>
+        </section>
+    </main>
+
+    <footer class="rodape rodape-simples">
+        <p>Projeto acadêmico · Programação Web Front-End · UTFPR · 2026</p>
+    </footer>
+</body>
+</html>
